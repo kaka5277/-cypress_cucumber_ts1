@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "types": [
+            "cypress",
+            "node",
+            "cucumber",
+            "cypress-cucumber-preprocessor"
+        ]
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
