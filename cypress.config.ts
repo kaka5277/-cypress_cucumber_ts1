@@ -12,6 +12,7 @@ module.exports = defineConfig({
       };
       on('file:preprocessor', cucumber(options));
     },
-    specPattern: "cypress/e2e/*.feature",
+    //specPattern: "cypress/e2e/*.feature",
+    specPattern: "**/*.feature",
   },
 });
